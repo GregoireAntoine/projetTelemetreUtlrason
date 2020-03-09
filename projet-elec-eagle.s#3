@@ -7424,9 +7424,7 @@ D = Direct mounting &lt;p&gt;
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2"/>
 <part name="CRISTAL" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" package3d_urn="urn:adsk.eagle:package:26647/2"/>
 <part name="DIS1" library="display-hp" library_urn="urn:adsk.eagle:library:212" deviceset="HD-H101" device="" package3d_urn="urn:adsk.eagle:package:13006/1"/>
-<part name="DECODEUR-DIZAINES" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL16" device="S" package3d_urn="urn:adsk.eagle:package:14441/1">
-<attribute name="SPICEPREFIX" value="X"/>
-</part>
+<part name="DECODEUR-DIZAINES" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL16" device="S" package3d_urn="urn:adsk.eagle:package:14441/1"/>
 <part name="PORT-SERIAL" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="HP" package3d_urn="urn:adsk.eagle:package:10232/1"/>
 <part name="SONDE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="BOUTON" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
@@ -7516,13 +7514,13 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="16"/>
-<wire x1="154.94" y1="78.74" x2="154.94" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="154.94" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="154.94" y1="78.74" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
+<label x="154.94" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="16"/>
-<wire x1="185.42" y1="78.74" x2="185.42" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="185.42" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="185.42" y1="78.74" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<label x="185.42" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7546,13 +7544,13 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="8"/>
-<wire x1="172.72" y1="63.5" x2="172.72" y2="60.96" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="172.72" y="60.96" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="172.72" y1="63.5" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
+<label x="172.72" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="8"/>
-<wire x1="203.2" y1="63.5" x2="203.2" y2="60.96" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="203.2" y="60.96" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="203.2" y1="63.5" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="203.2" y="60.96" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7565,169 +7563,169 @@ D = Direct mounting &lt;p&gt;
 <net name="D-A" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="13"/>
-<wire x1="162.56" y1="78.74" x2="162.56" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="162.56" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
+<label x="162.56" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="M" pin="A"/>
-<wire x1="154.94" y1="104.14" x2="154.94" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="154.94" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="154.94" y1="104.14" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="154.94" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="D-F" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="15"/>
-<wire x1="157.48" y1="78.74" x2="157.48" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="157.48" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="157.48" y1="78.74" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<label x="157.48" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="M" pin="F"/>
-<wire x1="167.64" y1="104.14" x2="167.64" y2="99.06" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="167.64" y="99.06" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="167.64" y1="104.14" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+<label x="167.64" y="99.06" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="D-G" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="14"/>
-<wire x1="160.02" y1="78.74" x2="160.02" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="160.02" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="160.02" y1="78.74" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
+<label x="160.02" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="M" pin="G"/>
-<wire x1="170.18" y1="104.14" x2="170.18" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="170.18" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="170.18" y1="104.14" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
+<label x="170.18" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="D-B" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="12"/>
-<wire x1="165.1" y1="78.74" x2="165.1" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="165.1" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="165.1" y1="78.74" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<label x="165.1" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="M" pin="B"/>
-<wire x1="157.48" y1="104.14" x2="157.48" y2="99.06" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="157.48" y="99.06" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="157.48" y1="104.14" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<label x="157.48" y="99.06" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="D-C" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="11"/>
-<wire x1="167.64" y1="78.74" x2="167.64" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="167.64" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="167.64" y1="78.74" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
+<label x="167.64" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="M" pin="C"/>
-<wire x1="160.02" y1="104.14" x2="160.02" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="160.02" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="160.02" y1="104.14" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
+<label x="160.02" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="D-E" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="9"/>
-<wire x1="172.72" y1="78.74" x2="172.72" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="172.72" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="172.72" y1="78.74" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="172.72" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="M" pin="E"/>
-<wire x1="165.1" y1="104.14" x2="165.1" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="165.1" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<label x="165.1" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="D-D" class="0">
 <segment>
 <pinref part="DIS1" gate="M" pin="D"/>
-<wire x1="162.56" y1="104.14" x2="162.56" y2="99.06" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="162.56" y="99.06" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="162.56" y1="104.14" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<label x="162.56" y="99.06" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="10"/>
-<wire x1="170.18" y1="78.74" x2="170.18" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="170.18" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="170.18" y1="78.74" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="170.18" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="U-F" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="15"/>
-<wire x1="187.96" y1="78.74" x2="187.96" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="187.96" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="187.96" y1="78.74" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
+<label x="187.96" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="F"/>
-<wire x1="195.58" y1="104.14" x2="195.58" y2="99.06" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="195.58" y="99.06" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="195.58" y1="104.14" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="195.58" y="99.06" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="U-G" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="14"/>
-<wire x1="190.5" y1="78.74" x2="190.5" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="190.5" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="190.5" y1="78.74" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
+<label x="190.5" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="G"/>
-<wire x1="198.12" y1="104.14" x2="198.12" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="198.12" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="198.12" y1="104.14" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
+<label x="198.12" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="U-A" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="13"/>
-<wire x1="193.04" y1="78.74" x2="193.04" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="193.04" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="193.04" y1="78.74" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<label x="193.04" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="A"/>
-<wire x1="182.88" y1="104.14" x2="182.88" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="182.88" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="182.88" y1="104.14" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="182.88" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="U-B" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="12"/>
-<wire x1="195.58" y1="78.74" x2="195.58" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="195.58" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="195.58" y1="78.74" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
+<label x="195.58" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="B"/>
-<wire x1="185.42" y1="104.14" x2="185.42" y2="99.06" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="185.42" y="99.06" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="185.42" y1="104.14" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="185.42" y="99.06" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="U-C" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="11"/>
-<wire x1="198.12" y1="78.74" x2="198.12" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="198.12" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="198.12" y1="78.74" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<label x="198.12" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="C"/>
-<wire x1="187.96" y1="104.14" x2="187.96" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="187.96" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="187.96" y1="104.14" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
+<label x="187.96" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="U-D" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="10"/>
-<wire x1="200.66" y1="78.74" x2="200.66" y2="81.28" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="200.66" y="81.28" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="200.66" y1="78.74" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
+<label x="200.66" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="D"/>
-<wire x1="190.5" y1="104.14" x2="190.5" y2="99.06" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="190.5" y="99.06" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="190.5" y1="104.14" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="190.5" y="99.06" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="U-E" class="0">
 <segment>
 <pinref part="DECODEUR-UNITES" gate="G$1" pin="9"/>
-<wire x1="203.2" y1="78.74" x2="203.2" y2="83.82" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="203.2" y="83.82" size="1.778" layer="95" rot="R90" grouprefs="AFFICHEUR"/>
+<wire x1="203.2" y1="78.74" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+<label x="203.2" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="DIS2" gate="M" pin="E"/>
-<wire x1="193.04" y1="104.14" x2="193.04" y2="101.6" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="193.04" y="101.6" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
+<wire x1="193.04" y1="104.14" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="193.04" y="101.6" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="CRISTAL-1" class="0">
@@ -7765,105 +7763,52 @@ D = Direct mounting &lt;p&gt;
 <net name="INPUT-D-B" class="0">
 <segment>
 <pinref part="DECODEUR-DIZAINES" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="63.5" x2="154.94" y2="60.96" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="154.94" y="60.96" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-D-C" class="0">
-<segment>
-<pinref part="DECODEUR-DIZAINES" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="63.5" x2="157.48" y2="58.42" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="157.48" y="58.42" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-D-A" class="0">
-<segment>
-<pinref part="DECODEUR-DIZAINES" gate="G$1" pin="7"/>
-<wire x1="170.18" y1="63.5" x2="170.18" y2="58.42" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="170.18" y="58.42" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-D-D" class="0">
-<segment>
-<pinref part="DECODEUR-DIZAINES" gate="G$1" pin="6"/>
-<wire x1="167.64" y1="63.5" x2="167.64" y2="60.96" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="167.64" y="60.96" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-U-B" class="0">
-<segment>
-<pinref part="DECODEUR-UNITES" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="63.5" x2="185.42" y2="60.96" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="185.42" y="60.96" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-U-C" class="0">
-<segment>
-<pinref part="DECODEUR-UNITES" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="63.5" x2="187.96" y2="58.42" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="187.96" y="58.42" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-U-A" class="0">
-<segment>
-<pinref part="DECODEUR-UNITES" gate="G$1" pin="7"/>
-<wire x1="200.66" y1="63.5" x2="200.66" y2="58.42" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="200.66" y="58.42" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="INPUT-U-D" class="0">
-<segment>
-<pinref part="DECODEUR-UNITES" gate="G$1" pin="6"/>
-<wire x1="198.12" y1="63.5" x2="198.12" y2="60.96" width="0.1524" layer="91" grouprefs="AFFICHEUR"/>
-<label x="198.12" y="60.96" size="1.778" layer="95" rot="R270" grouprefs="AFFICHEUR"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PSP7/RD7"/>
-<wire x1="99.06" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="63.5" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="154.94" y="60.96" size="1.778" layer="95"/>
+<label x="154.94" y="60.96" size="1.778" layer="95"/>
+<label x="154.94" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PSP6/RD6"/>
-<wire x1="99.06" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-DIZAINES" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="63.5" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PSP5/RD5"/>
-<wire x1="99.06" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-DIZAINES" gate="G$1" pin="7"/>
+<wire x1="170.18" y1="63.5" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PSP4/RD4"/>
-<wire x1="99.06" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-DIZAINES" gate="G$1" pin="6"/>
+<wire x1="167.64" y1="63.5" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="RX/RC7"/>
-<wire x1="99.06" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-UNITES" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="63.5" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="TX/RC6"/>
-<wire x1="99.06" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-UNITES" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="63.5" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SDO/RC5"/>
-<wire x1="99.06" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-UNITES" gate="G$1" pin="7"/>
+<wire x1="200.66" y1="63.5" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SDI/RC4"/>
-<wire x1="99.06" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="DECODEUR-UNITES" gate="G$1" pin="6"/>
+<wire x1="198.12" y1="63.5" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
